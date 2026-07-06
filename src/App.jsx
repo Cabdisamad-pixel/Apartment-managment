@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Layout from "./components/Layout/Layout";
+import Resident from "./Pages/Resident";
 
 const router = createBrowserRouter([
   {
@@ -12,6 +13,10 @@ const router = createBrowserRouter([
       {
         path: "/dashboard",
         element: <div>Dashboard</div>
+      },
+      {
+        path :'Residents',
+        element: <Resident/>
       },
       {
         path: "*",
