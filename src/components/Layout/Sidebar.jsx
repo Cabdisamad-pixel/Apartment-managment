@@ -14,7 +14,7 @@ function Sidebar() {
   ];
 
   return (
-    <aside className="basis-[20%] bg-slate-950 text-slate-300 md:min-h-screen md:w-64">
+    <aside className="basis-[20%] bg-slate-950 text-slate-300 md:min-h-screen md:w-64 fixed">
       <div className="flex items-center gap-3 border-b border-slate-800 px-5 py-5">
         <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-emerald-500 text-white">
           ▦
