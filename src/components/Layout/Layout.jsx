@@ -8,11 +8,13 @@ const Layout = () => {
     return (
         <>
 
-            <div className="w-full flex justify-start items-start min-h-screen ">
+            <div className="w-full flex justify-start items-start min-h-screen relative ">
                 <Sidebar />
-                <div className="w-[80%] flex flex-col min-h-screen bg-slate-50">
+                <div className="w-[79%] overflow-scroll flex flex-col min-h-screen absolute right-0 top-0">
                     <Header />
-                    <Outlet />
+                    <div className="w-full h-full">
+                        <Outlet />
+                    </div>
                 </div>
             </div>
         </>

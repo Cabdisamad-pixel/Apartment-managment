@@ -7,7 +7,7 @@ function Header() {
   
 
   return (
-    <header className="flex flex-col gap-4 border-b border-slate-200 bg-white px-5 py-4 md:flex-row md:items-center md:justify-between md:px-8">
+    <header className="flex flex-col gap-4 border-b max-w-full border-slate-200 bg-white px-5 py-4 md:flex-row md:items-center md:justify-between md:px-5">
       <h2 className="text-2xl font-bold text-slate-900">Billing</h2>
 
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
