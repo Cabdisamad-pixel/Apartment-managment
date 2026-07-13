@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Layout from "./components/Layout/Layout";
 import Resident from "./Pages/Resident";
-
+import Billing from "./Pages/Billing/Billing";
 const router = createBrowserRouter([
   {
     element: <Layout />,
@@ -15,8 +15,12 @@ const router = createBrowserRouter([
         element: <div>Dashboard</div>
       },
       {
-        path :'Residents',
-        element: <Resident/>
+        path: "/residents",
+        element: <Resident />
+      },
+      {
+        path: "/billing",
+        element: <Billing />
       },
       {
         path: "*",
@@ -27,8 +31,6 @@ const router = createBrowserRouter([
 ])
 
 const App = () => {
-
-
 
 
   return (
