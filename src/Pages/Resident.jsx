@@ -326,12 +326,12 @@ export default function Resident() {
         <table className="w-full border-collapse text-sm">
           <thead>
             <tr className="border-t border-gray-200">
-              <th className="px-6 pb-3.5 text-left text-xs font-bold uppercase tracking-wide text-gray-400">Name</th>
-              <th className="px-6 pb-3.5 text-left text-xs font-bold uppercase tracking-wide text-gray-400">Contact</th>
-              <th className="px-6 pb-3.5 text-left text-xs font-bold uppercase tracking-wide text-gray-400">Unit</th>
-              <th className="px-6 pb-3.5 text-left text-xs font-bold uppercase tracking-wide text-gray-400">Move In Date</th>
-              <th className="px-6 pb-3.5 text-left text-xs font-bold uppercase tracking-wide text-gray-400">Status</th>
-              <th className="px-6 pb-3.5 text-left text-xs font-bold uppercase tracking-wide text-gray-400">Actions</th>
+              <th className="px-6  text-left py-1 text-xs font-bold uppercase  text-gray-400">Name</th>
+              <th className="px-6 py-1 text-left text-xs font-bold uppercase tracking-wide text-gray-400">Contact</th>
+              <th className="px-6 py-1 text-left text-xs font-bold uppercase tracking-wide text-gray-400">Unit</th>
+              <th className="px-6 py-1 text-left text-xs font-bold uppercase tracking-wide text-gray-400">Move In Date</th>
+              <th className="px-6 py-1 text-left text-xs font-bold uppercase tracking-wide text-gray-400">Status</th>
+              <th className="px-6 py-1 text-left text-xs font-bold uppercase tracking-wide text-gray-400">Actions</th>
             </tr>
           </thead>
           <tbody>
