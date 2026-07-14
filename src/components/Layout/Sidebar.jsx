@@ -5,7 +5,7 @@ import { NavLink } from "react-router";
 function Sidebar() {
   const menuItems = [
     { name: 'Dashboard', icon: '▦' },
-    { name: 'Apartments', icon: '▥' },
+    { name: 'apartments', icon: '▥' },
     { name: 'Residents', icon: '👥' },
     { name: 'Services', icon: '🔧' },
     { name: 'Billing', icon: '💳' },
