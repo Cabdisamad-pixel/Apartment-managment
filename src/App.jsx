@@ -3,6 +3,7 @@ import Layout from "./components/Layout/Layout";
 import Resident from "./Pages/Resident";
 import Billing from "./Pages/Billing/Billing";
 import Apartment from "./Pages/ApartmentPage";
+import Services from "./Pages/services/Services";
 const router = createBrowserRouter([
   {
     element: <Layout />,
@@ -26,6 +27,10 @@ const router = createBrowserRouter([
       {
         path: "/billing",
         element: <Billing />
+      },
+      {
+        path: "/services",
+        element: <Services />
       },
       {
         path: "*",
